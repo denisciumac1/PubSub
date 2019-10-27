@@ -1,0 +1,29 @@
+JS- Pub/Sub - Observer
+
+(DECOUPLED logic/ Weak Links)
+
+EventEmitter
+      Front-end*DOM / HTMLDivElement
+      Front-end*DOM / HTMLAnchorElement
+
+
+Publisher <----> Subscriber
+(emmit)----> events --> (listen)
+
+
+--------PROBLEM!!!!------- (Decorare)
+const my_object = {} --nu are acest patern!!
+class MyClass{
+
+}
+var my-o = new MyClass() nu are acest patern!!
+
+
+//How to add your logic
+//1) dynamic extension
+var em = new EventEmitter();
+em.name = "Ponint.md"
+em.dof = "2009"
+//2) class NewMaker exteds = EventEmitter{
+      
+}
